@@ -1,0 +1,19 @@
+PROJETO GRUPO 1 DA TURMA 20WPS12: CARRINHO DE COMPRAS
+
+Faremos um site para uma loja de jogos. O site será composto por uma Homepage, uma página “Nossos Produtos” e uma página de “Venda”.  Todas elas conterão um Navbar com as rotas das páginas, permitindo
+uma boa navegação do usuário, além de um Footer.
+
+- Homepage: a homepage será responsável pela apresentação da loja, contendo imagem de apresentação e breve descrição do negócio para que o cliente conheça a loja.
+
+- Nossos Produtos: a página “Nossos Produtos” será responsável pela apresentação dos jogos disponíveis para venda. Os jogos disponíveis ficarão organizados em cards
+que conterão os seguintes atributos: um número identificador (ID), o nome do jogo, o preço em reais (R$) e breve descrição dele. Além disso, o card conterá uma foto da capa
+do jogo e um botão “Adicionar ao Carrinho”, o qual adicionará uma unidade do jogo desejado ao carrinho de compras a cada clique para que, assim, a compra possa ser efetuada quando o cliente desejar.
+
+- Venda (Carrinho):  a página “Venda” ou “Carrinho” será responsável pela parte final da venda, ou seja, ela apresentará o carrinho de compras e a opção de finalizar a compra. Nela constará uma tabela
+com informações dos produtos que foram inseridos no carrinho a partir da página “Nossos Produtos” (nome, quantidade selecionada, preço total do jogo escolhido (Ex: qtd jogo A * preço jogo A)).
+Essa tabela permitirá que um produto tenha a sua quantidade editada através de dois botões que existirão, que serão os botões de “ + ” e “ - “. Um clique no botão de “ + ” adicionará uma unidade do
+respectivo jogo no carrinho, ao passo que o botão de “ - “ reduzirá em uma unidade a quantidade de um determinado jogo no carrinho. Um botão de “exclusão” também existirá para que o consumidor possa retirar
+um determinado jogo do carrinho, independente da quantidade existente. Ao final da tabela haverá um botão “Finalizar Compra”. Ao clicar neste botão aparecerá uma mensagem com o boleto final da compra, que
+conterá o valor total do carrinho (Ex: (qtd jogo A * preço jogo A) + (qtd jogo B * preço jogo B)), além de dois botões chamados “Confirmar Compra” e “Continuar Comprando”. Caso o cliente confirme a compra
+aparecerá uma mensagem de sucesso indicando que o boleto foi gerado corretamente, além de limpar o carrinho. Após alguns segundos ele será redirecionado para a Homepage do site. Se a opção escolhida for
+continuar comprando ele será redirecionado para a página “Nossos Produtos”, onde poderá adicionar novos produtos ao carrinho. 
